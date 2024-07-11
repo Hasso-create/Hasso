@@ -6,6 +6,6 @@ publish = "out"
   from = "/search"
   to = "https://api.mysearch.com"
   status = 200
-  force = true # COMMENT: ensure that we always redirect
+  force = true 
   headers = {X-From = "Netlify"}
   signed = "API_SIGNATURE_TOKEN"
