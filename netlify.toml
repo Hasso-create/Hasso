@@ -9,5 +9,3 @@ publish = "out"
   force = true 
   headers = {X-From = "Netlify"}
   signed = "API_SIGNATURE_TOKEN"
-  
-
