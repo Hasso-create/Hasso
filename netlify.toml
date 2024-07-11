@@ -1,8 +1,10 @@
-
-
+[build]
+command = "npm run build"
+publish = "/build"
+base = "/"
 
 [[redirects]] 
-  from = "/search"
+  from = "/*"
   to = "/index.html"
   status = 200
   force = true 
