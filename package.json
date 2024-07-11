@@ -1,3 +1,4 @@
   "engines" {
   "node": "14.x"
+    npm install react
 }
